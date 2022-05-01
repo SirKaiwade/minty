@@ -304,16 +304,16 @@ export default function Home() {
 							</div>
 							{/* End Dark Mode Switch */}
 							<li>
-								<a href="https://mintyy.vercel.app/">Home</a>
+								<a href="https://mintysolutions.com/">Home</a>
 							</li>
 							<li>
-								<a href="https://mintyy.vercel.app/services">Services</a>
+								<a href="https://mintysolutions.com/services">Services</a>
 							</li>
 							<li>
-								<a href="https://mintyy.vercel.app/casestudies">Case Studies</a>
+								<a href="https://mintysolutions.com/casestudies">Case Studies</a>
 							</li>
 							<li>
-								<a href="https://mintyy.vercel.app/contact">Contact</a>
+								<a href="https://mintysolutions.com/contact">Contact</a>
 							</li>
 						</ul>
 						{/* <div className={styles.logo}> */}
@@ -365,7 +365,7 @@ export default function Home() {
 							service personalised to your project
 						</p>
 						<div className={headerStyles.headerBtns}>
-							<a href="https://mintyy.vercel.app/services">
+							<a href="https://mintysolutions.com/services">
 								<button className={headerStyles.learnMoreBtn}>
 									Learn More
 								</button>
@@ -667,7 +667,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintyy.vercel.app/services">
+								<a href="https://mintysolutions.com/pitchDeck">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -780,7 +780,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintyy.vercel.app/services">
+								<a href="https://mintysolutions.com/pitchDeck">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -894,7 +894,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintyy.vercel.app/services">
+								<a href="https://mintysolutions.com/pitchDeck">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -910,7 +910,7 @@ export default function Home() {
 							Work With a Dedicated Agency
 						</p>
 						<a
-							href="https://mintyy.vercel.app/casestudies"
+							href="https://mintysolutions.com/casestudies"
 							className={styles.whyMintyCTA}>
 							See a Comparison between Minty and Other Firms{" "}
 							<FaRegCaretSquareRight

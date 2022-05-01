@@ -691,6 +691,10 @@
 		font-size: 3rem;
 	}
 
+	.heroContent h1 > h4 {
+		display: inline-block;
+	}
+
 	.heroContent p {
 		margin-top: 20px;
 	}
