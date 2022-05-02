@@ -1037,7 +1037,7 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-						<div className={styles.testimonialCardItem}>
+						{/* <div className={styles.testimonialCardItem}>
 							<Image src="/images/Vending.png" alt="" width={60} height={60} />
 							<h4>Aza</h4>
 							<div>
@@ -1070,7 +1070,7 @@ export default function Home() {
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 
