@@ -68,7 +68,7 @@ function Contact() {
 							hideEventTypeDetails: false,
 							hideLandingPageDetails: false,
 							primaryColor: "1973f5",
-							textColor: "4d5055",
+							textColor: "ffffff",
 						}}
 					/>
 				)) || (
