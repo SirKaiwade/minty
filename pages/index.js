@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import headerStyles from "../styles/Header.module.css";
 import styles from "../styles/Home.module.css";
 import {
@@ -304,13 +306,17 @@ export default function Home() {
 							</div>
 							{/* End Dark Mode Switch */}
 							<li>
-								<a href="https://mintysolutions.com/">Home</a>
+								<Link href='/'>
+									<a>Home</a>
+								</Link>
 							</li>
 							<li>
 								<a href="https://mintysolutions.com/services">Services</a>
 							</li>
 							<li>
-								<a href="https://mintysolutions.com/casestudies">Case Studies</a>
+								<a href="https://mintysolutions.com/casestudies">
+									Case Studies
+								</a>
 							</li>
 							<li>
 								<a href="https://mintysolutions.com/contact">Contact</a>
@@ -318,23 +324,27 @@ export default function Home() {
 						</ul>
 						{/* <div className={styles.logo}> */}
 						{(darkTheme && (
-							<Image
-								src="/images/logo/logo-light.png"
-								alt=""
-								width={170}
-								height={70}
-								// layout="fill"
-								objectFit="cover"
-							/>
+							<a href="https://mintysolutions.com/">
+								<Image
+									src="/images/logo/logo-light.png"
+									alt=""
+									width={170}
+									height={70}
+									// layout="fill"
+									objectFit="cover"
+								/>
+							</a>
 						)) || (
-							<Image
-								src="/images/logo/logo-black.png"
-								alt=""
-								width={170}
-								height={70}
-								// layout="fill"
-								objectFit="cover"
-							/>
+							<a href="https://mintysolutions.com/">
+								<Image
+									src="/images/logo/logo-black.png"
+									alt=""
+									width={170}
+									height={70}
+									// layout="fill"
+									objectFit="cover"
+								/>
+							</a>
 						)}
 
 						{/* </div> */}
@@ -365,7 +375,7 @@ export default function Home() {
 							service personalised to your project
 						</p>
 						<div className={headerStyles.headerBtns}>
-							<a href="https://mintysolutions.com/services">
+							<a href="https://mintysolutions.com/learnmore">
 								<button className={headerStyles.learnMoreBtn}>
 									Learn More
 								</button>
@@ -380,26 +390,31 @@ export default function Home() {
 
 				{/* METRICS */}
 				<div className={styles.metricsSection}>
-					<p className={styles.tagLine}>And were just getting started</p>
+					<p className={styles.tagLine}>And we&#x27;re just getting started</p>
 					<div className={styles.metrics}>
 						<div className={styles.metricsCard}>
 							<h2>INFLUENCER NETWORK</h2>
 							<p>
-								<CountUp end={60} redraw={true}>
+								<CountUp
+									start={0}
+									end={60000000}
+									separator=","
+									redraw={true}
+									duration={4}>
 									{({ countUpRef, start }) => (
 										<VisibilitySensor onChange={start} delayedCall>
 											<span ref={countUpRef} />
 										</VisibilitySensor>
 									)}
 								</CountUp>
-								M+ Followers
+								+ Followers
 							</p>
 						</div>
 
 						<div className={styles.metricsCard}>
 							<h2>PRESS RELEASES</h2>
 							<p>
-								<CountUp end={800} redraw={true}>
+								<CountUp end={800} redraw={true} duration={4.5}>
 									{({ countUpRef, start }) => (
 										<VisibilitySensor onChange={start} delayedCall>
 											<span ref={countUpRef} />
@@ -413,7 +428,7 @@ export default function Home() {
 						<div className={styles.metricsCard}>
 							<h2>TEAM MEMBERS</h2>
 							<p>
-								<CountUp end={40} redraw={true}>
+								<CountUp end={40} redraw={true} duration={5.5}>
 									{({ countUpRef, start }) => (
 										<VisibilitySensor onChange={start} delayedCall>
 											<span ref={countUpRef} />
@@ -667,7 +682,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.com/pitchDeck">
+								<a href="https://mintysolutions.com/learnmore">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -780,7 +795,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.com/pitchDeck">
+								<a href="https://mintysolutions.com/learnmore">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -894,7 +909,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.com/pitchDeck">
+								<a href="https://mintysolutions.com/learnmore">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>

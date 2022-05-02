@@ -270,36 +270,40 @@ const Header = (props) => {
 
 					{/* End Dark Mode Switch */}
 					<li>
-						<a href="https://mintyy.vercel.app/">Home</a>
+						<a href="https://mintysolutions.com/">Home</a>
 					</li>
 					<li>
-						<a href="https://mintyy.vercel.app/services">Services</a>
+						<a href="https://mintysolutions.com/services">Services</a>
 					</li>
 					<li>
-						<a href="https://mintyy.vercel.app/casestudies">Case Studies</a>
+						<a href="https://mintysolutions.com/casestudies">Case Studies</a>
 					</li>
 					<li>
-						<a href="https://mintyy.vercel.app/contact">Contact</a>
+						<a href="https://mintysolutions.com/contact">Contact</a>
 					</li>
 				</ul>
 				{(darkTheme && (
-					<Image
-						src="/images/logo/logo-light.png"
-						alt=""
-						width={170}
-						height={70}
-						// layout="fill"
-						objectFit="cover"
-					/>
+					<a href="https://mintysolutions.com/">
+						<Image
+							src="/images/logo/logo-light.png"
+							alt=""
+							width={170}
+							height={70}
+							// layout="fill"
+							objectFit="cover"
+						/>
+					</a>
 				)) || (
-					<Image
-						src="/images/logo/logo-black.png"
-						alt=""
-						width={170}
-						height={70}
-						// layout="fill"
-						objectFit="cover"
-					/>
+					<a href="https://mintysolutions.com/">
+						<Image
+							src="/images/logo/logo-black.png"
+							alt=""
+							width={170}
+							height={70}
+							// layout="fill"
+							objectFit="cover"
+						/>
+					</a>
 				)}
 				<button className={styles.scheduleACallBtn} id={styles["navBtn"]}>
 					Schedule a Call
@@ -314,7 +318,7 @@ const Header = (props) => {
 					personalised to your project
 				</p>
 				<div className={styles.headerBtns}>
-					<a href="https://mintysolutions.vercel.app/services">
+					<a href="https://mintysolutions.com/learnmore">
 						<button className={styles.learnMoreBtn}>Learn More</button>
 					</a>
 					<button className={styles.scheduleACallBtn}>Schedule a Call</button>

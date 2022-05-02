@@ -13,7 +13,7 @@ function PreFooter() {
 						Results!
 					</h4>
 				<div>
-					<a href="#" className={styles.preFooterCTA}>
+					<a href="https://mintysolutions.com/contact" className={styles.preFooterCTA}>
 						Arrange a Meeting
 					</a>{" "}
 					<FaRegCaretSquareRight />{" "}
