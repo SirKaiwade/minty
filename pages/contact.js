@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/CaseStudies.module.css";
+import styles from "../styles/Contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faBarsProgress,

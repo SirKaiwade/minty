@@ -22,6 +22,7 @@
   --color-priceCardBtn : #3B4B5B;
   --color-SocialLinks: #000;
   --color-navLinkHover: #015bd7;
+  --color-contactPage: #eef6fe;
 }
 
 [data-theme='dark'] {
@@ -38,6 +39,7 @@
   --color-priceCardBtn : #0165F0;
   --color-SocialLinks: #fff;
   --color-navLinkHover: #015bd7;
+  --color-contactPage: #0D0D0D;
 }
 
 body {
