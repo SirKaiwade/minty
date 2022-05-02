@@ -787,6 +787,11 @@
 		padding: 0 40px;
 	}
 
+	.servicesOneTitle {
+		text-align: center;
+		font-size: 1.7rem;
+	}
+
 	.servicesTwo .content p {
 		font-size: 0.875rem;
 		padding: 0 10px;
