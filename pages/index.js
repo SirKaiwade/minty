@@ -84,6 +84,9 @@ export default function Home() {
 		`${navbarOpen ? headerStyles.navActive : ""}`,
 	];
 
+	// Router variable for active nav classes
+	const router = useRouter();
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -305,25 +308,29 @@ export default function Home() {
 								)}{" "}
 							</div>
 							{/* End Dark Mode Switch */}
-							<li>
-								<Link href='/'>
-									Home
-								</Link>
+							<li
+								className={
+									router.pathname == "/" ? headerStyles.activeLink : ""
+								}>
+								<Link href="/">Home</Link>
 							</li>
-							<li>
-								<Link href='/services'>
-									Services
-								</Link>
+							<li
+								className={
+									router.pathname == "/services" ? headerStyles.activeLink : ""
+								}>
+								<Link href="/services">Services</Link>
 							</li>
-							<li>
-								<Link href='/casestudies'>
-									Case Studies
-								</Link>
+							<li
+								className={
+									router.pathname == "/casestudies" ? headerStyles.activeLink : ""
+								}>
+								<Link href="/casestudies">Case Studies</Link>
 							</li>
-							<li>
-								<Link href='/contact'>
-									Contact
-								</Link>
+							<li
+								className={
+									router.pathname == "/contact" ? headerStyles.activeLink : ""
+								}>
+								<Link href="/contact">Contact</Link>
 							</li>
 						</ul>
 						{/* <div className={styles.logo}> */}

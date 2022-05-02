@@ -19,6 +19,7 @@
   --color-nav: #fff;
   --color-priceCardBtn : #3B4B5B;
   --color-SocialLinks: #000;
+  --color-navLinkHover: #015bd7;
 }
 
 [data-theme='dark'] {
@@ -32,6 +33,7 @@
   --color-nav: #fff;
   --color-priceCardBtn : #0165F0;
   --color-SocialLinks: #fff;
+  --color-navLinkHover: #015bd7;
 }
 
 body {
@@ -110,63 +112,6 @@ input:checked + .slider:before {
 .slider:before {
   border-radius: 50%;
 }
-
-/* adding some custom CSS */
-
-/* nav {
-  display: flex;
-  justify-content: space-between;
-}
-nav .mybrand {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  color: var(--color-primary);
-}
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-top: 2.5rem;
-}
-section .heroSection {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  height: 100vh;
-}
-
-.heroSection > h1 {
-  font-size: 55px;
-}
-
-.heroSection > h3 {
-  padding: 30px 0px 15px 0px;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.heroSection > p {
-  font-size: 18px;
-  color: var(--color-paragraph);
-}
-
-.heroSection button {
-  cursor: pointer;
-  margin-top: 30px;
-  background: var(--color-button);
-  color: var(--color-button-text);
-  border-radius: 5px;
-  padding: 15px 30px;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-.navLinks ul li a {
-  display: none;
-  color: white;
-} */
 
 a {
   /* color: var(--color-paragraph); */

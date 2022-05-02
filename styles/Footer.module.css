@@ -42,6 +42,10 @@
 	color: grey;
 }
 
+.footer2 ul li a:hover {
+	color: #000;
+}
+
 .footer3 ul li {
 	font-size: 0.775rem;
 }

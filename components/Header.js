@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Header.module.css";
+import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { GoRocket } from "react-icons/go";
@@ -67,6 +68,10 @@ const Header = (props) => {
 		styles.navLinks,
 		`${navbarOpen ? styles.navActive : ""}`,
 	];
+	
+	// Router variable for active nav classes
+	const router = useRouter();
+
 	return (
 		<header className={styles.header}>
 			{(darkTheme && (
@@ -270,16 +275,25 @@ const Header = (props) => {
 					</div>
 
 					{/* End Dark Mode Switch */}
-					<li>
+					<li className={router.pathname == "/" ? styles.activeLink : ""}>
 						<Link href="/">Home</Link>
 					</li>
-					<li>
+					<li
+						className={
+							router.pathname == "/services" ? styles.activeLink : ""
+						}>
 						<Link href="/services">Services</Link>
 					</li>
-					<li>
+					<li
+						className={
+							router.pathname == "/casestudies" ? styles.activeLink : ""
+						}>
 						<Link href="/casestudies">Case Studies</Link>
 					</li>
-					<li>
+					<li
+						className={
+							router.pathname == "/contact" ? styles.activeLink : ""
+						}>
 						<Link href="/contact">Contact</Link>
 					</li>
 				</ul>

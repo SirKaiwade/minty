@@ -115,13 +115,27 @@
 	font-weight: 500;
 }
 
-/* add a little space between home link and dark mode switch */
-.navLinks li :nth-child(4) {
-	/* margin-left: 100px; */
+.navLinks li a {
+	/* color: red; */
+	color: var(--color-primary);
 }
 
-.navLinks li a {
-	color: var(--color-primary);
+.activeLink {
+	color: red;
+	/* background: purple; */
+	/* text-decoration: #015bd7 double underline; */
+	/* text-underline-offset: 2px; */
+	border-bottom: 4px solid #253c93;
+	border-bottom-left-radius: 40%;
+}
+
+.navLinks li a:hover {
+	/* text-decoration: var(--color-navLinkHover) double underline; */
+	/* text-underline-offset: 2px; */
+	text-decoration: none;
+	transition: 0.4s;
+	border-bottom: 4px solid #253c93;
+	border-bottom-left-radius: 40%;
 }
 
 .headerBtns {
