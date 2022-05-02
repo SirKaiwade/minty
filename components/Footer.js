@@ -41,14 +41,14 @@ function Footer() {
 					<ul>
 						<li>
 							<a
-								href="https://twitter.com"
+								href="https://twitter.com/MintySolutions"
 								className={styles.mintySocialsTwitter}>
 								<FaTwitter /> Twitter
 							</a>{" "}
 						</li>
 						<li>
 							<a
-								href="https://linkedin.com"
+								href="https://www.linkedin.com/company/minty-marketing-solutions-ltd"
 								className={styles.mintySocialsLinkedin}>
 								<FaLinkedin /> Linkedin
 							</a>{" "}
