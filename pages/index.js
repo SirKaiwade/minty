@@ -974,17 +974,17 @@ export default function Home() {
 								</p>
 								<div>
 									<a
-										href="https://instagram.com"
+										href="https://www.instagram.com/p/Cc-ycHEOtZ9/"
 										className={styles.clientSocials}>
 										<FaInstagram />
 									</a>{" "}
 									<a
-										href="https://twitter.com"
+										href="https://twitter.com/VendMachineNFT"
 										className={styles.clientSocials}>
 										<FaTwitter />
 									</a>{" "}
 									<a
-										href="https://mintysolutions.com"
+										href="https://www.vendingmachinesnft.io"
 										className={styles.clientSocials}>
 										<FaGlobeAmericas />
 									</a>{" "}
@@ -1012,17 +1012,17 @@ export default function Home() {
 								<p className={styles.clientTitle}>Founder | Puzzle Prize NFT</p>
 								<div>
 									<a
-										href="https://instagram.com"
+										href="https://www.instagram.com/puzzleprize_nft/"
 										className={styles.clientSocials}>
 										<FaInstagram />
 									</a>{" "}
 									<a
-										href="https://twitter.com"
+										href="https://twitter.com/puzzle_nft"
 										className={styles.clientSocials}>
 										<FaTwitter />
 									</a>{" "}
 									<a
-										href="https://mintysolutions.com"
+										href="https://www.puzzleprizenft.com/"
 										className={styles.clientSocials}>
 										<FaGlobeAmericas />
 									</a>{" "}
