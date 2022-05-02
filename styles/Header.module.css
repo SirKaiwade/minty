@@ -51,7 +51,7 @@
 .scheduleACallBtn:hover {
 	background: transparent;
 	border: 1px solid #3b4b5b;
-	color: #015bd7;
+	color: var(--color-ScheduleBtnHover);
 }
 
 /* LEARN MORE BUTTON LIGHT THEME */
