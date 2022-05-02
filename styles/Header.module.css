@@ -125,17 +125,17 @@
 	/* background: purple; */
 	/* text-decoration: #015bd7 double underline; */
 	/* text-underline-offset: 2px; */
-	border-bottom: 4px solid #253c93;
-	border-bottom-left-radius: 40%;
+	/* border-bottom: 4px solid #253c93;
+	border-bottom-left-radius: 40%; */
 }
 
 .navLinks li a:hover {
 	/* text-decoration: var(--color-navLinkHover) double underline; */
 	/* text-underline-offset: 2px; */
-	text-decoration: none;
+	/* text-decoration: none;
 	transition: 0.4s;
 	border-bottom: 4px solid #253c93;
-	border-bottom-left-radius: 40%;
+	border-bottom-left-radius: 40%; */
 }
 
 .headerBtns {
