@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from 'next/link'
 import Image from "next/image";
 import styles from "../styles/Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -270,16 +271,16 @@ const Header = (props) => {
 
 					{/* End Dark Mode Switch */}
 					<li>
-						<a href="https://mintysolutions.com/">Home</a>
+						<Link href="/">Home</Link>
 					</li>
 					<li>
-						<a href="https://mintysolutions.com/services">Services</a>
+						<Link href="/services">Services</Link>
 					</li>
 					<li>
-						<a href="https://mintysolutions.com/casestudies">Case Studies</a>
+						<Link href="/casestudies">Case Studies</Link>
 					</li>
 					<li>
-						<a href="https://mintysolutions.com/contact">Contact</a>
+						<Link href="/contact">Contact</Link>
 					</li>
 				</ul>
 				{(darkTheme && (

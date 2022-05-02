@@ -1,4 +1,5 @@
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FaInstagram } from "react-icons/fa";
@@ -23,30 +24,32 @@ function Footer() {
 				<div className={styles.footer2}>
 					<ul>
 						<li>
-							<a href="https://mintysolutions.com/">Home</a>
+							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<a href="https://mintysolutions.com/services">Services</a>
+							<Link href="/services">Services</Link>
 						</li>
 						<li>
-							<a href="https://mintysolutions.com/casestudies">
-								Case Studies
-							</a>
+							<Link href="/casestudies">Case Studies</Link>
 						</li>
 						<li>
-							<a href="https://mintysolutions.com/contact">Contact</a>
+							<Link href="/contact">Contact</Link>
 						</li>
 					</ul>
 				</div>
 				<div className={styles.footer3}>
 					<ul>
 						<li>
-							<a href="https://twitter.com" className={styles.mintySocialsTwitter}>
+							<a
+								href="https://twitter.com"
+								className={styles.mintySocialsTwitter}>
 								<FaTwitter /> Twitter
 							</a>{" "}
 						</li>
 						<li>
-							<a href="https://linkedin.com" className={styles.mintySocialsLinkedin}>
+							<a
+								href="https://linkedin.com"
+								className={styles.mintySocialsLinkedin}>
 								<FaLinkedin /> Linkedin
 							</a>{" "}
 						</li>

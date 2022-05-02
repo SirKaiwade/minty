@@ -307,19 +307,23 @@ export default function Home() {
 							{/* End Dark Mode Switch */}
 							<li>
 								<Link href='/'>
-									<a>Home</a>
+									Home
 								</Link>
 							</li>
 							<li>
-								<a href="https://mintysolutions.com/services">Services</a>
+								<Link href='/services'>
+									Services
+								</Link>
 							</li>
 							<li>
-								<a href="https://mintysolutions.com/casestudies">
+								<Link href='/casestudies'>
 									Case Studies
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="https://mintysolutions.com/contact">Contact</a>
+								<Link href='/contact'>
+									Contact
+								</Link>
 							</li>
 						</ul>
 						{/* <div className={styles.logo}> */}
