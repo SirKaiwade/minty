@@ -11,6 +11,7 @@
 :root {
   --color-primary-accent: #2614c7;
   --color-ScheduleBtnHover: #015bd7;
+  --color-ScheduleBtnHoverBorder: #000;
   --color-primary: #3B4B5B;
   --color-secondary: #EEF6FE;
   --color-button: #3d486c;
@@ -26,6 +27,7 @@
 [data-theme='dark'] {
   --color-primary-accent: #00ff4c;
   --color-ScheduleBtnHover: #ffffff;
+  --color-ScheduleBtnHoverBorder: #ffffff;
   --color-primary: #fff;
   --color-secondary: #161616;
   --color-button: #00ff4c;
@@ -118,4 +120,8 @@ input:checked + .slider:before {
 a {
   /* color: var(--color-paragraph); */
   text-decoration: none;
+}
+
+.calendly-inline-widget {
+  margin-bottom: 40px;
 }

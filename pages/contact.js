@@ -64,22 +64,24 @@ function Contact() {
 					<InlineWidget
 						url="https://calendly.com/mintysolutions/15min"
 						pageSettings={{
-							backgroundColor: "0d0d0d",
+							backgroundColor: "161616",
 							hideEventTypeDetails: false,
 							hideLandingPageDetails: false,
 							primaryColor: "1973f5",
 							textColor: "ffffff",
+							marginBottom: "30px"
 						}}
 					/>
 				)) || (
 					<InlineWidget
 						url="https://calendly.com/mintysolutions/15min"
 						pageSettings={{
-							backgroundColor: "ffffff",
+							backgroundColor: "eef6fe",
 							hideEventTypeDetails: false,
 							hideLandingPageDetails: false,
 							primaryColor: "00a2ff",
 							textColor: "4d5055",
+							marginBottom: "30px"
 						}}
 					/>
 				)}

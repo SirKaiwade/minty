@@ -145,17 +145,13 @@
 }
 
 .heroContent {
-	/* display: flex; */
-	/* flex-direction: column; */
 	margin: auto;
 	max-width: 730px;
 	text-align: center;
-	/* margin-top: 30px; */
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	/* z-index: 1; */
 }
 
 .heroContent p {
@@ -222,7 +218,7 @@
 		position: absolute;
 		left: 0;
 		top: 12vh;
-		height: 86vh;
+		height: 88vh;
 		background-color: #3b4b5b;
 		color: white;
 		display: flex;
