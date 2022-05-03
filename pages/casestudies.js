@@ -151,9 +151,9 @@ function CaseStudies() {
 						<tr className={styles.tableHead}>
 							<th>SERVICES</th>
 							<th>Minty Solutions</th>
-							<th>Benco Services</th>
-							<th>NinjaPromo</th>
-							<th>CrowdCreate</th>
+							<th>Competitor A</th>
+							<th>Competitor B</th>
+							<th>Competitor C</th>
 						</tr>
 						<tr className={styles.tableInfo}>
 							<td>Instagram Management Team</td>
