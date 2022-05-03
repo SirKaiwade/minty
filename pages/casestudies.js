@@ -85,19 +85,19 @@ function CaseStudies() {
 						<p className={styles.achievements}>Achievements</p>
 						<div>
 							<p>
-								<FaRegCheckCircle /> 106.1% Growth in Tweet
+								<FaRegCheckCircle /> 10% Growth in Tweet
 								Impressions
 							</p>
 							<p>
-								<FaRegCheckCircle /> 31.2% Growth in Profile
+								<FaRegCheckCircle /> 3.44% Growth in Profile
 								Visits
 							</p>
 							<p>
-								<FaRegCheckCircle /> 47.3% Growth in
+								<FaRegCheckCircle /> 43% Growth in
 								Mentions
 							</p>
 							<p>
-								<FaRegCheckCircle /> 25.6% Growth in
+								<FaRegCheckCircle /> 3% Growth in
 								Followers
 							</p>
 						</div>
