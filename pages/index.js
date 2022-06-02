@@ -271,7 +271,7 @@ export default function Home() {
 							<HamburgerMenu />
 						</div>
 
-						<ul className={navLinksClasses.join(" ")}>
+						<ul className={navLinksClasses.join(" ")}> 
 							{/* Dark Mode Switch */}
 							<div id={styles["darkModeSwitch"]}>
 								{(darkTheme && (
