@@ -542,7 +542,7 @@ export default function Home() {
 									for any graphical or video assets you need.
 								</p>
 								<div className={styles.servicesOneCTA}>
-									<a href="https://www.youtube.com/watch?v=y_8p5bXkzr4&list=PLJmi_coEYYOLsciSDUoJay5c-phMybsHp&ab_channel=MintySolutions">
+									<a href="https://www.mintysolutions.com/work">
 										Take a look at a few examples
 									</a>
 									<FaRegCaretSquareRight className={styles.whyMintyCTAIcon} />{" "}

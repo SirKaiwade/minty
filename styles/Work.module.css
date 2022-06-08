@@ -2,9 +2,32 @@
     display: flex;
     flex-wrap: wrap;
     margin: 100px 30px;
-    justify-content: space-between;
+    column-gap: 50px;
 }
 
 .workItems > div {
     margin-bottom: 72px;
+    width: 410px;
+    height: 200px;
+    /* height: auto; */
+}
+
+.workItems > div > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .workItems {
+        justify-content: center;
+        /* column-gap: 50px; */
+    }
+
+    .workItems > div {
+        margin-bottom: 72px;
+        width: 600px;
+        height: 300px;
+        /* height: auto; */
+}
+
 }

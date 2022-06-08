@@ -90,62 +90,81 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Minty Solutions - Work</title>
+				<title>Minty Solutions - Creative Portfolio</title>
 				<meta name="description" content="" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<main className={styles.main}>
-				<Header title="Our Work" />
+				<Header title="Creative Portfolio" />
 
 				<div className={styles.workItems}>
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/y_8p5bXkzr4"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
 
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/4YGulUxP78c"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/4YGulUxP78c"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
 
-
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/omxbcav0EBs"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/omxbcav0EBs"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
 
-
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/asR3ds6mNrc"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/asR3ds6mNrc"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
 
-
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/NEh3SpNpoxY"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/NEh3SpNpoxY"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
 
-
-					<div className={styles.pitchDeckCard}>
+					<div>
 						<iframe
-							width="420"
-							height="315"
-							src="https://www.youtube.com/embed/hfVlHpz6II0"></iframe>
+							// width="420"
+							// height="315"
+							src="https://www.youtube.com/embed/hfVlHpz6II0"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen></iframe>
 					</div>
-
 				</div>
 				{/* PRE FOOTER */}
 				<PreFooter />
