@@ -1,0 +1,10 @@
+.workItems {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 30px;
+    justify-content: space-between;
+}
+
+.workItems > div {
+    margin-bottom: 72px;
+}

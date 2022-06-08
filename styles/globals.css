@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,300&display=swap'); */
+
+/* declaring the css variables colors */
+* {
+  box-sizing: border-box;
+
+  /* border: 1px solid red; */
+  /* overflow-x: hidden; */
+}
+
+:root {
+  --color-primary-accent: #2614c7;
+  --color-ScheduleBtnHover: #015bd7;
+  --color-ScheduleBtnHoverBorder: #000;
+  --color-primary: #3B4B5B;
+  --color-secondary: #EEF6FE;
+  --color-button: #3d486c;
+  --color-paragraph: #797979;
+  --color-button-text: rgb(255, 255, 255);
+  --color-background: #fff;
+  --color-nav: #fff;
+  --color-priceCardBtn : #3B4B5B;
+  --color-SocialLinks: #000;
+  --color-navLinkHover: #015bd7;
+  --color-contactPage: #eef6fe;
+}
+
+[data-theme='dark'] {
+  --color-primary-accent: #00ff4c;
+  --color-ScheduleBtnHover: #ffffff;
+  --color-ScheduleBtnHoverBorder: #ffffff;
+  --color-primary: #fff;
+  --color-secondary: #161616;
+  --color-button: #00ff4c;
+  --color-paragraph: #8a8a8a;
+  --color-button-text: rgb(0, 0, 0);
+  --color-background: #0D0D0D;
+  --color-nav: #fff;
+  --color-priceCardBtn : #0165F0;
+  --color-SocialLinks: #fff;
+  --color-navLinkHover: #015bd7;
+  --color-contactPage: #0D0D0D;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  /* font-size: 16px; */
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* 
+h1,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+} */
+
+/* swtich taken from W3 schools */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #0065F2;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0065F2;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+a {
+  /* color: var(--color-paragraph); */
+  text-decoration: none;
+}
+
+.calendly-inline-widget {
+  margin-bottom: 40px;
+}
