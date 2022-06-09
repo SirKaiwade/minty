@@ -26,11 +26,13 @@
 .marqueeTitle {
 	margin-top: 56px;
 	/* margin-bottom: 8px; */
-	font-weight: 300;
+	font-weight: 400;
+	font-size: 0.875rem;
+    opacity: 0.5;
 }
 
 .Marquee {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 }
 
 .Marquee .bannerLogo {
@@ -480,7 +482,7 @@
 /* LARGE LAPTOP VIEW */
 @media screen and (max-width: 2560px) {
 	.tagLine {
-		margin-top: 64px;
+		margin-top: 8px;
 	}
 
 	.services0ne {

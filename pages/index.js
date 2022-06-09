@@ -495,7 +495,7 @@ export default function Home() {
 
 				{/* METRICS */}
 				<div className={styles.metricsSection}>
-					<p className={styles.tagLine}>And we&#x27;re just getting started</p>
+					{/* <p className={styles.tagLine}>What we&#x27;ve achieved this year</p> */}
 					<div className={styles.metrics}>
 						<div className={styles.metricsCard}>
 							<h2>INFLUENCER NETWORK</h2>
