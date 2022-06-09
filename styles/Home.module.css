@@ -490,10 +490,9 @@
 
 /* SMALL LAPTOP VIEW */
 @media screen and (max-width: 1024px) {
-	.whyMinty {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	/* Marque / Banner */
+	.Marquee .bannerLogo {
+		margin: 0 50px;
 	}
 
 	.whyMintyCTA {
@@ -728,12 +727,18 @@
 
 /* MOBILE SCREENS */
 @media screen and (max-width: 425px) {
+	/* Marque / Banner */
+	.Marquee .bannerLogo {
+		margin: 0 10px;
+	}
+
 	.pitchDeck {
 		padding: 0 30px;
 	}
 
 	.tagLine {
 		font-size: 0.775rem;
+		margin-top: 32px;
 	}
 
 	.content h1 {
