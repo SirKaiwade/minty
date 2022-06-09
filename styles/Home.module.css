@@ -24,8 +24,8 @@
 
 /* Marque / Banner */
 .marqueeTitle {
-	margin-top: 48px;
-	margin-bottom: 8px;
+	margin-top: 56px;
+	/* margin-bottom: 8px; */
 	font-weight: 300;
 }
 
