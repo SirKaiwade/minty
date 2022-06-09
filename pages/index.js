@@ -410,14 +410,88 @@ export default function Home() {
 					</div>
 					{/* </div> */}
 				</header>
-					{/* <Marquee className={styles.Marquee}>
-						As previously seen on
-						<Image src="/images/banner_logos/logo_1.png" width={100} height={30} alt={""} />
-						<Image src="/images/banner_logos/logo_1.png" width={100} height={30} alt={""} />
-						<Image src="/images/banner_logos/logo_1.png" width={100} height={30} alt={""} />
-						<Image src="/images/banner_logos/logo_1.png" width={100} height={30} alt={""} />
-						<Image src="/images/banner_logos/logo_1.png" width={100} height={30} alt={""} />
-					</Marquee> */}
+					<h2 className={styles.marqueeTitle}>Some of Our Past Clients</h2>
+				<Marquee className={styles.Marquee} play={true} gradient={false}>
+					<div className={styles.bannerLogo}>
+						<Image
+							src="/images/banner_logos/AamesGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/Carbon_GS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/CityStatesGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/DeltaGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/GSD_GS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/KruisyKrocsGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/SpaceDudesGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+					<div className={styles.bannerLogo}>
+						<Image
+							className={styles.bannerLogo}
+							src="/images/banner_logos/VendingGS.png"
+							width={120}
+							height={120}
+							objectFit="contain"
+							alt={""}
+						/>
+					</div>
+				</Marquee>
 
 				{/* METRICS */}
 				<div className={styles.metricsSection}>
