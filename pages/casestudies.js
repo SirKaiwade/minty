@@ -174,6 +174,7 @@ function CaseStudies() {
 						Other Marketing Agencies
 					</h1>
 				</div>
+				
 				{/* TABLE */}
 				<div className={styles.tableContainer}>
 					<table className={styles.mintyComparisonTable}>
