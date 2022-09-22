@@ -1132,7 +1132,7 @@ export default function Home() {
 							</div>
 						</div>
 						{ <div className={styles.testimonialCardItem}>
-							<Image src="/images/Vending.png" alt="" width={60} height={60} />
+							<Image src="/images/Mac.png" alt="" width={60} height={60} />
 							<h4>Aza</h4>
 							<div>
 								<p className={styles.clientTitle}>
@@ -1156,9 +1156,9 @@ export default function Home() {
 									</a>{" "}
 									<p className={styles.clientReview}>
 										Minty Marketing Solutions Team did a great job with us at Toon Society. The team helped me as a 
-										founder to recognize our main weaknesses and helped us address it. I had a problem with 
-										engagement/activity, writing copy for socials and we also needed some support in terms of Graphic
-										design and promo videos, and Minty Solutions delivered on each one of those needs.
+										founder to recognize our main weaknesses and helped us address it. I had a problem with engagement/activity, writing copy for socials and we also needed some support in terms of Graphic
+										design and promo videos, and Minty Solutions delivered on each one of those needs. All in all, I would highly recommend them and would definitely reach out to them in the future.
+
 									</p>
 								</div>
 							</div>
