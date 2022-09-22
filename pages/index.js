@@ -1133,7 +1133,7 @@ export default function Home() {
 						</div>
 						{ <div className={styles.testimonialCardItem}>
 							<Image src="/images/Mac1.png" alt="" width={60} height={60} />
-							<h4>Aza</h4>
+							<h4>Mac</h4>
 							<div>
 								<p className={styles.clientTitle}>
 									Founder | Toons Society
