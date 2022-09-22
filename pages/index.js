@@ -1155,13 +1155,14 @@ export default function Home() {
 										<FaGlobeAmericas />
 									</a>{" "}
 									<p className={styles.clientReview}>
-										Minting Marketing Solutions Team did a great job with us at Toon Society. The team helped me as a founder to recognize our main weaknesses and helped us address it. I had a problem with engagement/activity, writing copy for socials and we also needed some support in terms of Graphic design and promo videos, and Minty Solutions delivered on each one of those needs.
-
-Their marketing team were professional, quick, courteous and very helpful. They helped us promote and market our startup NFT project very well. At first, I was worried they wouldn’t be able to achieve the requested tasks in time, but they finished the job with time to spare! All in all, I would highly recommend them and would definitely reach out to them in the future.
+										Minty Marketing Solutions Team did a great job with us at Toon Society. The team helped me as a 
+										founder to recognize our main weaknesses and helped us address it. I had a problem with 
+										engagement/activity, writing copy for socials and we also needed some support in terms of Graphic
+										design and promo videos, and Minty Solutions delivered on each one of those needs.
 									</p>
 								</div>
 							</div>
-						</div> */}
+						</div> }
 					</div>
 				</div>
 
